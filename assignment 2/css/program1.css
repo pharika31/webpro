@@ -19,20 +19,26 @@ h1,h2{
 h3,h4,h5,h6{
 	text-align:left;
 	font-weight:bold;
-	
+	display:inline;
 }
-tcaption{
+caption{
 	font-weight:bold;
+	color:#A4A400;
+  background-color:#F0F0F0;
 }
 table{
 	background-color:#CC9933;
 	margin-top:20px;
-	
-}
-td{
+	border:2px;
 	border-color:#ffffff;
 	border-style:solid;
+	 border-collapse: collapse;
+}
+td{
 	border:2px;
+	border-color:#ffffff;
+	border-style:solid;
+	 border-collapse: collapse;
 }
 th{
 	background-color:#003366;
