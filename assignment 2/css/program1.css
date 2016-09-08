@@ -5,7 +5,7 @@ body{
 }
 
 h1,
-h2
+h2,h3,h4,h5,h6
 {
   color:#A4A400;
   background-color:#F0F0F0;
@@ -21,6 +21,7 @@ h3,h4,h5,h6{
 	font-weight:bold;
 	display:inline;
 }
+
 caption{
 	font-weight:bold;
 	color:#A4A400;
@@ -47,4 +48,21 @@ th{
 	border-color:#ffffff;
 	border-style:solid;
 	padding:5px;
+}
+.headsmall{
+	display: block;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+.headbig{
+	display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
 }
