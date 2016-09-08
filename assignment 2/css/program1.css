@@ -1,0 +1,40 @@
+body{
+	background-color:#FFCC00;
+	color:#000000;
+	font-family:Georgia,Garamond,Serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  color:#A4A400;
+  background-color:#F0F0F0;
+  font-family:Century Gothic, Futura, Verdana, sans-serif;
+}
+
+h1,h2{
+	text-align:center;
+}
+
+h3,h4,h5,h6{
+	text-align:left;
+	
+}
+tcaption{
+	font-weight:bold;
+}
+table{
+	background-color:#CC9933;
+	margin-top:20px;
+}
+th{
+	background-color:#003366;
+	color:#ffffff;
+	border:2px;
+	border-color:#ffffff;
+	border-style:solid;
+	padding:5px;
+}
