@@ -10,6 +10,7 @@ h2,h3,h4,h5,h6
   color:#A4A400;
   background-color:#F0F0F0;
   font-family:Century Gothic, Futura, Verdana, sans-serif;
+  letter-spacing: 5px;
 }
 
 h1,h2{
@@ -26,6 +27,7 @@ caption{
 	font-weight:bold;
 	color:#A4A400;
   background-color:#F0F0F0;
+  letter-spacing: 5px;
 }
 table{
 	background-color:#CC9933;
@@ -34,6 +36,7 @@ table{
 	border-color:#ffffff;
 	border-style:solid;
 	 border-collapse: collapse;
+	 
 }
 td{
 	border:2px;
@@ -48,6 +51,7 @@ th{
 	border-color:#ffffff;
 	border-style:solid;
 	padding:5px;
+	
 }
 .headsmall{
 	display: block;
@@ -56,6 +60,7 @@ th{
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+	letter-spacing: 5px;
 }
 .headbig{
 	display: block;
@@ -65,4 +70,9 @@ th{
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+	letter-spacing: 5px;
+}
+.left{
+	float:left;
+	padding-right:3%;
 }
