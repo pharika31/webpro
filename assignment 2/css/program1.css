@@ -10,7 +10,7 @@ h2,h3,h4,h5,h6
   color:#A4A400;
   background-color:#F0F0F0;
   font-family:Century Gothic, Futura, Verdana, sans-serif;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
 
 h1,h2{
@@ -51,6 +51,34 @@ th{
 	border-color:#ffffff;
 	border-style:solid;
 	padding:5px;
+	
+}
+
+
+.navbar-buttons > li{
+	list-style-type:none;
+	display: inline;
+	padding-right:2%;
+	padding-top:5px;
+	padding-bottom:5px;
+	border:2%;
+	border-style:none;
+	background-color:#000066;
+	margin-right:4px;
+	
+}
+.navbar-buttons > li>a{
+	text-decoration:none;
+	background-color:#eeffcc;
+	padding-left:1%;
+	padding-top:5px;;
+	padding-right:1%;
+	padding-bottom:5px;
+
+}
+.navbar{
+	font-weight: bold;
+	
 	
 }
 .headsmall{
