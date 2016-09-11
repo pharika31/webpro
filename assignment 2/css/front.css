@@ -42,7 +42,7 @@ p.description_content{
 .about{
 	float:right;
 }
-#description_content a:link{
+ a:link,  a:visited{
 	color:white;
 	text-decoration:underline;
 }
