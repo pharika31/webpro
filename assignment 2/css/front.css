@@ -42,7 +42,7 @@ p.description_content{
 .about{
 	float:right;
 }
- a:link,  a:visited{
+ .whitelink{
 	color:white;
 	text-decoration:underline;
 }
