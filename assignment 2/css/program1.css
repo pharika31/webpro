@@ -2,6 +2,7 @@ body{
 	background-color:#FFCC00;
 	color:#000000;
 	font-family:Georgia,Garamond,Serif;
+	
 }
 
 h1,
@@ -10,7 +11,7 @@ h2,h3,h4,h5,h6
   color:#A4A400;
   background-color:#F0F0F0;
   font-family:Century Gothic, Futura, Verdana, sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
 }
 
 h1,h2{
@@ -27,7 +28,7 @@ caption{
 	font-weight:bold;
 	color:#A4A400;
   background-color:#F0F0F0;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
 }
 table{
 	background-color:#CC9933;
@@ -53,7 +54,10 @@ th{
 	padding:5px;
 	
 }
-
+ul {
+    list-style-image: url('../images/bullet.png');
+	list-style-position: inside;
+}
 
 .navbar-buttons > li{
 	list-style-type:none;
@@ -61,17 +65,23 @@ th{
 	padding-right:2%;
 	padding-top:5px;
 	padding-bottom:5px;
-	border:2%;
+	
 	border-style:none;
 	background-color:#000066;
 	margin-right:4px;
 	
 }
-.navbar-buttons > li>a{
+#navbar-buttons a:link{
+	
+    color: #000066;
 	text-decoration:none;
+
+}
+.navbar-buttons > li>a{
+
 	background-color:#eeffcc;
 	padding-left:1%;
-	padding-top:5px;;
+	padding-top:5px;
 	padding-right:1%;
 	padding-bottom:5px;
 
@@ -88,7 +98,7 @@ th{
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
-	letter-spacing: 5px;
+	letter-spacing: 4px;
 }
 .headbig{
 	display: block;
@@ -98,7 +108,7 @@ th{
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
-	letter-spacing: 5px;
+	letter-spacing: 4px;
 }
 .left{
 	float:left;

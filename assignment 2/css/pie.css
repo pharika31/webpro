@@ -1,6 +1,12 @@
 body{
 	background-image:url("../images/");
 	font-family:Georgia,Garamond,Serif;
+	margin:2%;
+	border:2px;
+	border-style:solid;
+	border-color:white;
+	padding:2%;
+	
 }
 
 h1{
@@ -11,4 +17,10 @@ h1{
 
 h2,h3,h4,h5,h6{
 	color:Blue;
+}
+
+.img-responsive{
+	display:block;
+	margin-left: auto;
+    margin-right: auto
 }
