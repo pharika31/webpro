@@ -36,14 +36,16 @@ table{
 	border:2px;
 	border-color:#ffffff;
 	border-style:solid;
-	 border-collapse: collapse;
+	border-collapse: collapse;
+	color:#ffffff;
 	 
 }
 td{
 	border:2px;
 	border-color:#ffffff;
 	border-style:solid;
-	 border-collapse: collapse;
+	padding:5px;
+	
 }
 th{
 	background-color:#003366;
